@@ -52,14 +52,12 @@ public class Ticket {
 
     // xem trạng thái vé còn active
     public boolean getActive() {
-        if (timeOut == null) {
-            return true;
-        }
-        return false;
+        return timeOut == null;
     }
 
     // ==================== Tính Giá Tiền =========================
     public void feeCaculator() {
-        
+        // ?????? muốn tính giá theo 2 cách theo giờ và theo lượt để làm sao
+        // app sẽ hỗ trợ thêm cả tính tổng doanh thu theo thời gian nhất định nữa ?
     }
 }

@@ -1,12 +1,12 @@
 import java.time.LocalDateTime;
 
 public class Ticket {
-    private int ticketID;
+    private final int ticketID;
     private static int ticketCounter = 0;
-    private Vehicle currentVehicle;
-    private LocalDateTime timeIn;
+    private final Vehicle currentVehicle;
+    private final LocalDateTime timeIn;
     private LocalDateTime timeOut;
-    private ParkingSpot spot;
+    private final ParkingSpot spot;
     private long fee;
 
     // Contractor khi xe vào

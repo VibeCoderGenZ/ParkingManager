@@ -5,7 +5,7 @@ public class ParkingZone {
     private String zoneId;
     private List<ParkingSpot> listSpots;
 
-    // Contructors
+    // Contractors
     public ParkingZone(String zoneId) {
         this.zoneId = zoneId;
         this.listSpots = new ArrayList<>();
